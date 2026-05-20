@@ -1,0 +1,30 @@
+# Receiving packages — never commit actual quality records
+*.pdf
+*.xlsx
+*.xls
+
+# Exception: the blank PRF template can be committed if desired
+# !QF_7_4_3-02_Rev_E_template.xlsx
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code artifacts
+_fill_prf.py
+_compile.py
+_inspect.py
+
+# Sensitive data
+COCs/
+Drawings/
+Shipping*/
+In-Progress/
+Inspections/
